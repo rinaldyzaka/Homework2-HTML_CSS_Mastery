@@ -1,0 +1,187 @@
+body {
+  background-color: #ffff;
+}
+
+.flexbox-container {
+  height: auto;
+  font-family: "Heebo", sans-serif;
+}
+
+.flexbox-tentangsaya {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding: 50;
+  width: auto;
+}
+.flexbox-tentangsaya .name {
+  flex: 4;
+  line-height: 40px;
+  margin: 30px;
+  padding: 40px;
+  font-size: 41px;
+  font-weight: bold;
+  font-style: normal;
+  color: #21243D;
+}
+.flexbox-tentangsaya .aboutme {
+  text-align: justify;
+  line-height: 23.5px;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  margin-top: 50px;
+  margin-right: 35px;
+  margin-bottom: 40px;
+}
+.flexbox-tentangsaya .foto {
+  flex: 2;
+  margin-bottom: 30px;
+  margin-left: 40px;
+  padding: 100px;
+}
+.flexbox-tentangsaya .foto img {
+  width: 243px;
+  height: 243px;
+  border-radius: 50%;
+  position: center;
+}
+
+.coned {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 60px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 5px 10px #eeeeee;
+  background-color: #EDF7FA;
+  font-family: "Inter", sans-serif;
+}
+
+.contact {
+  flex: 2;
+  margin: 0 20px;
+  width: 100%;
+}
+.contact h2 {
+  color: #136223;
+  font-size: 20px;
+}
+.contact .cont {
+  margin-top: 30px;
+  font-size: 18px;
+}
+.contact .fas {
+  margin-right: 16px;
+}
+
+.education {
+  flex: 2;
+  margin: 0 20px;
+  width: 100%;
+}
+.education h2 {
+  color: #136223;
+  font-size: 20px;
+}
+.education h3 {
+  font-size: 16px;
+}
+.education h4 {
+  font-size: 14px;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 100px;
+}
+.projects h1 {
+  flex-wrap: wrap;
+  padding: 30px;
+  color: #136223;
+}
+
+.project {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  box-shadow: 5px 10px #eeeeee;
+}
+.project .project-img {
+  flex: 1;
+  margin: 30px;
+}
+.project .project-img img {
+  width: 380px;
+  min-width: 50%;
+  border-radius: 10px;
+}
+.project .project-info {
+  flex: 2;
+  align-items: center;
+  margin-right: 15px;
+  font-size: 23px;
+}
+.project .project-info .main-title h1 {
+  color: #21243D;
+  font-family: "Heebo", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: left;
+  margin-bottom: 10px;
+  margin-right: 15px;
+}
+.project .project-info .year {
+  display: flex;
+  text-align: center;
+  margin-left: 10px;
+}
+.project .project-info .year .label {
+  width: 40px;
+  border-radius: 20px;
+  padding: 10px;
+  color: #ffff;
+  font-size: 16px;
+  font-weight: bold;
+}
+.project .project-info .year .tahun {
+  background-color: #21243D;
+}
+.project .project-info .year .ket {
+  margin-left: 30px;
+  font-size: 20px;
+  color: #8695A4;
+}
+.project .project-info .text {
+  text-align: justify;
+  padding: 10px;
+  font-size: 19px;
+}
+
+.socmed {
+  display: flex;
+  margin: 10px;
+  justify-content: center;
+}
+.socmed .instagram, .socmed .twitter, .socmed .linkedin, .socmed .github {
+  padding: 15px;
+  font-size: 26px;
+}
+.socmed .fab {
+  color: #21243D;
+}
+
+.copyright p {
+  text-align: center;
+  font-family: "Heebo", sans-serif;
+  font-size: 14px;
+  padding: 0;
+}
+
+/*# sourceMappingURL=styles.css.map */
