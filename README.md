@@ -1,2 +1,2 @@
-# Homework2-HTML_CSS_Mastery
+# Slicing Resume template
 Doing slicing from Figma to HTML, CSS and CSS Preprocessor
